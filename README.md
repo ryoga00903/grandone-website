@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# グランドワン合同会社 公式ウェブサイト
 
-## Getting Started
+川崎市幸区を拠点とする軽貨物配送会社「グランドワン合同会社」の公式ウェブサイトです。
 
-First, run the development server:
+## 🚀 技術スタック
+
+- **フレームワーク**: Next.js 16 (App Router)
+- **言語**: TypeScript
+- **スタイリング**: Tailwind CSS
+- **アニメーション**: Framer Motion
+- **フォーム管理**: React Hook Form + Zod
+- **メール送信**: Resend
+- **UI**: Lucide Icons, Sonner (Toast)
+
+## 📦 セットアップ
 
 ```bash
+# 依存関係のインストール
+npm install
+
+# 環境変数の設定
+cp .env.example .env.local
+# .env.localにResend APIキーを設定
+
+# 開発サーバーの起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 デプロイ
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+このプロジェクトはVercelにデプロイされています。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+環境変数:
+- `RESEND_API_KEY`: Resend APIキー
 
-## Learn More
+## 📧 お問い合わせ
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 電話: 044-555-0652 / 080-7240-5467
+- Instagram: [@grandone_group](https://www.instagram.com/grandone_group)
+- Facebook: [Grand One](https://www.facebook.com/share/19pBeQMz4s/)
+- LINE: [公式アカウント](https://lin.ee/utOtBNM)
