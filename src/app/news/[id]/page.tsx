@@ -56,8 +56,15 @@ export default async function NewsPage({ params }: Props) {
                                 <Calendar size={16} />
                                 {newsItem.date}
                             </div>
-                            <div className={`flex items-center gap-2 px-3 py-1 rounded-full text-white font-medium text-sm ${newsItem.tag === "重要" ? "bg-red-500" : newsItem.tag === "募集" ? "bg-green-500" : "bg-accent"
-                                }`}>
+                            <div
+                                className={`flex items-center gap-2 px-3 py-1 rounded-full font-medium text-sm ${
+                                    newsItem.tag === "重要"
+                                        ? "bg-red-100 text-red-600"
+                                        : newsItem.tag === "募集"
+                                        ? "bg-green-100 text-green-600"
+                                        : "bg-blue-100 text-blue-600"
+                                }`}
+                            >
                                 <Tag size={14} />
                                 {newsItem.tag}
                             </div>

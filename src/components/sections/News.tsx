@@ -49,7 +49,15 @@ export const News = () => {
                   <time className="text-sm text-text-secondary font-medium">
                     {item.date}
                   </time>
-                  <span className="px-3 py-1 bg-main/10 text-main text-xs font-bold rounded-full">
+                  <span
+                    className={`px-3 py-1 text-xs font-bold rounded-full ${
+                      item.tag === "重要"
+                        ? "bg-red-100 text-red-600"
+                        : item.tag === "募集"
+                        ? "bg-green-100 text-green-600"
+                        : "bg-blue-100 text-blue-600"
+                    }`}
+                  >
                     {item.tag}
                   </span>
                   <h3 className="flex-1 text-text-primary font-bold group-hover:text-main transition-colors">
