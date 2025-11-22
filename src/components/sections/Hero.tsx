@@ -1,62 +1,75 @@
 "use client";
 
 import Link from "next/link";
-import { Phone, Mail } from "lucide-react";
 import { motion } from "framer-motion";
 
 export const Hero = () => {
-    return (
-        <section
-            id="hero"
-            className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden bg-slate-900"
+  return (
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-main/10 via-slate-50 to-accent/10 overflow-hidden">
+      <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-5"></div>
+      <div className="container mx-auto px-4 md:px-6 text-center relative z-10">
+        <motion.h1
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          className="text-4xl md:text-6xl lg:text-7xl font-bold text-accent mb-6 leading-tight"
         >
-            {/* Background Image Placeholder */}
-            <div className="absolute inset-0 bg-gradient-to-br from-accent/90 to-slate-900/80 z-10" />
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-40" />
+          川崎から、あなたのビジネスを
+          <br />
+          <span className="text-main">より速く、より確実に</span>
+        </motion.h1>
 
-            <div className="container mx-auto px-4 md:px-6 relative z-20 text-center text-white">
-                <motion.h2
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                    className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
-                >
-                    川崎から、<br className="md:hidden" />
-                    <span className="text-main">信頼</span>と
-                    <span className="text-main">安心</span>を運びます。
-                </motion.h2>
-                <motion.p
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.4 }}
-                    className="text-base md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed"
-                >
-                    定期ルート便から緊急のスポット配送まで。
-                    <br />
-                    グランドワンは、地域のお客様の『物流の悩み』を柔軟に解決します。
-                </motion.p>
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, delay: 0.6 }}
-                    className="flex flex-col sm:flex-row items-center justify-center gap-4"
-                >
-                    <Link
-                        href="#contact"
-                        className="w-full sm:w-auto px-8 py-4 bg-main hover:bg-main-hover text-accent font-bold rounded-full transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2"
-                    >
-                        <Mail size={20} />
-                        お見積り・ご相談（無料）
-                    </Link>
-                    <a
-                        href="tel:0445550652"
-                        className="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/30 text-white font-bold rounded-full transition-all flex items-center justify-center gap-2"
-                    >
-                        <Phone size={20} />
-                        お電話でのお問い合わせ
-                    </a>
-                </motion.div>
-            </div>
-        </section>
-    );
+        <motion.p
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+          className="text-lg md:text-xl text-text-secondary mb-12 max-w-3xl mx-auto"
+        >
+          グランドワン合同会社は、川崎市幸区を拠点に、軽貨物配送サービスを提供しています。
+          <br />
+          定期ルート便からスポット配送まで、お客様のニーズに柔軟に対応いたします。
+        </motion.p>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="flex flex-col sm:flex-row gap-4 justify-center"
+        >
+          <Link
+            href="#contact"
+            className="px-8 py-4 bg-main hover:bg-main-hover text-accent font-bold rounded-full transition-all transform hover:scale-105 shadow-lg"
+          >
+            お問い合わせ
+          </Link>
+          <Link
+            href="#services"
+            className="px-8 py-4 bg-white hover:bg-slate-50 text-accent font-bold rounded-full transition-all transform hover:scale-105 shadow-lg border-2 border-main"
+          >
+            サービス詳細
+          </Link>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
+        >
+          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-main/10">
+            <div className="text-4xl font-bold text-main mb-2">24h</div>
+            <div className="text-text-secondary">迅速対応</div>
+          </div>
+          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-main/10">
+            <div className="text-4xl font-bold text-main mb-2">100%</div>
+            <div className="text-text-secondary">顧客満足度</div>
+          </div>
+          <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-sm border border-main/10">
+            <div className="text-4xl font-bold text-main mb-2">10+</div>
+            <div className="text-text-secondary">年の実績</div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
 };
