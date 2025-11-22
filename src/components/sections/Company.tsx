@@ -63,7 +63,7 @@ export const Company = () => {
                     >
                         {/* Google Maps */}
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.8582942697774!2d139.69166307649383!3d35.538794072625305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018600c8e9c9999%3A0x0!2zMzXCsDMyJzE5LjciTiAxMznCsDQxJzM0LjIiRQ!5e0!3m2!1sja!2sjp!4v1700000000000!5m2!1sja!2sjp"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d405.0110516758259!2d139.69477222563532!3d35.54159566464733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60186083ead00d57%3A0xafc5590f8a331d2a!2z44CSMjEyLTAwMDcg56We5aWI5bed55yM5bed5bSO5biC5bm45Yy65rKz5Y6f55S677yT4oiS77yU!5e0!3m2!1sja!2sjp!4v1763803639277!5m2!1sja!2sjp"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
