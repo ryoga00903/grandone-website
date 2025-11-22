@@ -61,16 +61,16 @@ export const Company = () => {
                         transition={{ duration: 0.8 }}
                         className="h-[400px] bg-slate-200 rounded-2xl overflow-hidden relative"
                     >
-                        {/* Google Maps Placeholder */}
+                        {/* Google Maps */}
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.5687654321!2d139.695!3d35.535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDMyJzA2LjAiTiAxMznCsDQxJzQyLjAiRQ!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.8582942697774!2d139.69166307649383!3d35.538794072625305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018600c8e9c9999%3A0x0!2zMzXCsDMyJzE5LjciTiAxMznCsDQxJzM0LjIiRQ!5e0!3m2!1sja!2sjp!4v1700000000000!5m2!1sja!2sjp"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
                             allowFullScreen
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
-                            title="Google Maps"
+                            title="グランドワン合同会社の所在地"
                             className="grayscale hover:grayscale-0 transition-all duration-500"
                         ></iframe>
                     </motion.div>
