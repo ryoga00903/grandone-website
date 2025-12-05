@@ -28,7 +28,7 @@ export const Message = () => {
                         transition={{ duration: 0.8 }}
                         className="w-full md:w-1/2"
                     >
-                        <h2 className="text-3xl font-bold text-accent mb-6">
+                        <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-accent mb-6 whitespace-nowrap">
                             繋ぐ力で、物流の常識を突破する。
                         </h2>
                         <p className="text-text-secondary leading-relaxed mb-6">
