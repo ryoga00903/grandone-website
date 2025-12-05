@@ -29,20 +29,34 @@ export const Message = () => {
                         className="w-full md:w-1/2"
                     >
                         <h2 className="text-3xl font-bold text-accent mb-6">
-                            物流を通じて、<br />
-                            地域の皆様の暮らしとビジネスを支えます
+                            繋ぐ力で、物流の常識を突破する。
                         </h2>
                         <p className="text-text-secondary leading-relaxed mb-6">
-                            私たちグランドワンは、単に物を運ぶだけでなく、お客様の想いも一緒にお届けすることを大切にしています。
-                            変化の激しい物流業界において、常に「お客様にとって何がベストか」を考え、柔軟で高品質なサービスを提供し続けることが私たちの使命です。
+                            私たちが繋ぐのは、<br />
+                            人と人。物流と物流。そして未来。
                         </p>
-                        <p className="text-text-secondary leading-relaxed">
-                            地域に根ざした企業として、皆様から信頼されるパートナーであり続けられるよう、日々努力を重ねてまいります。
-                            今後とも変わらぬご愛顧を賜りますようお願い申し上げます。
+                        <p className="text-text-secondary leading-relaxed mb-6">
+                            深刻化する人材不足、ドライバー高齢化。<br />
+                            業界が抱える現実から逃げない。背を向けない。<br />
+                            仲間同士・クライアントと強固なコミュニケーションを築き、<br />
+                            一人では届かない領域へ、チームで挑む。
                         </p>
-                        <div className="mt-8">
-                            <p className="font-bold text-text-primary text-lg">代表社員</p>
-                            <p className="text-text-secondary">（氏名）</p>
+                        <p className="text-text-secondary leading-relaxed mb-6">
+                            新世代の独立支援にも力を注ぎ、<br />
+                            独立後も&quot;戦う仲間&quot;として共に前へ。<br />
+                            問題が起きればすぐ動く。絶対に孤独にしない。<br />
+                            だからこそ、サービスのクオリティを守れる。
+                        </p>
+                        <p className="text-text-secondary leading-relaxed mb-6">
+                            物流の世界では、増加する需要・厳しい労働時間・運賃高騰という波に対し、<br />
+                            共同配送などの革新的な配送効率化で突破口を開く。<br />
+                            業界の課題に、解決と攻めの提案で応える存在へ。
+                        </p>
+                        <div className="mt-10 pt-6 border-t border-slate-200">
+                            <div className="flex items-end justify-between">
+                                <p className="text-sm text-text-secondary">代表社員</p>
+                                <p className="text-3xl font-bold text-accent">岡部翔大</p>
+                            </div>
                         </div>
                     </motion.div>
                 </div>
