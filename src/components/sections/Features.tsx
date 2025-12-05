@@ -33,7 +33,8 @@ export const Features = () => {
                         transition={{ duration: 0.6 }}
                         className="text-3xl md:text-4xl font-bold text-accent mb-4"
                     >
-                        グランドワンが選ばれる3つの理由
+                        グランドワンが選ばれる<br />
+                        3つの理由
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
