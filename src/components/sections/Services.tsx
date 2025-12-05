@@ -1,6 +1,6 @@
 "use client";
 
-import { Users, Truck, Flower, Clock, Package } from "lucide-react";
+import { Users, Truck, Apple, Clock, Package } from "lucide-react";
 import { motion } from "framer-motion";
 
 export const Services = () => {
@@ -16,9 +16,9 @@ export const Services = () => {
             icon: <Truck className="w-6 h-6" />,
         },
         {
-            title: "生花配送",
-            desc: "温度管理や固定など、繊細な取り扱いが求められるお花や植物の配送にも対応しております。",
-            icon: <Flower className="w-6 h-6" />,
+            title: "青果配送",
+            desc: "鮮度管理が重要な野菜や果物の配送に対応。温度管理や丁寧な積載で、新鮮な状態のままお届けします。",
+            icon: <Apple className="w-6 h-6" />,
         },
         {
             title: "スポット配送",
