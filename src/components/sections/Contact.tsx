@@ -72,7 +72,7 @@ export const Contact = () => {
                         >
                             <Phone className="text-main w-6 h-6" />
                             <span className="text-2xl md:text-3xl font-bold text-accent">
-                                044-555-0652
+                                080-7240-5467
                             </span>
                         </motion.div>
                     </div>

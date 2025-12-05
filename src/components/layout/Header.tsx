@@ -36,24 +36,26 @@ export const Header = () => {
                 }`}
         >
             <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
-                <Link href="/#hero" className="flex items-center gap-2 group">
-                    <div className="relative h-10 w-auto aspect-[1/1]">
-                        <Image
-                            src="/logo.png"
-                            alt="グランドワン合同会社"
-                            width={100}
-                            height={100}
-                            className="h-full w-auto object-contain"
-                            priority
-                        />
-                    </div>
+                <div className="flex items-center gap-2">
+                    <Link href="/#hero" className="group">
+                        <div className="relative h-10 w-auto aspect-[1/1]">
+                            <Image
+                                src="/logo.png"
+                                alt="グランドワン合同会社"
+                                width={100}
+                                height={100}
+                                className="h-full w-auto object-contain"
+                                priority
+                            />
+                        </div>
+                    </Link>
                     <h1
                         className={`text-lg md:text-xl font-bold tracking-tight transition-colors ${isScrolled ? "text-accent" : "text-white drop-shadow-md"
                             }`}
                     >
                         グランドワン合同会社
                     </h1>
-                </Link>
+                </div>
 
                 {/* Desktop Nav */}
                 <nav className="hidden md:flex items-center gap-8">
@@ -73,7 +75,7 @@ export const Header = () => {
                 {/* Mobile Menu Button */}
                 <div className="flex items-center gap-4 md:hidden">
                     <a
-                        href="tel:0445550652"
+                        href="tel:08072405467"
                         className="flex items-center justify-center w-10 h-10 rounded-full bg-main text-accent shadow-lg hover:scale-105 transition-transform"
                         aria-label="電話をかける"
                     >

@@ -70,11 +70,11 @@ export const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:animate-shimmer" />
           </Link>
           <a
-            href="tel:0445550652"
+            href="tel:08072405467"
             className="group w-full sm:w-auto px-10 py-5 bg-white/5 hover:bg-white/10 backdrop-blur-md border border-white/20 text-white font-bold rounded-full transition-all flex items-center justify-center gap-3 hover:border-white/40"
           >
             <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-            044-555-0652
+            080-7240-5467
           </a>
         </motion.div>
 

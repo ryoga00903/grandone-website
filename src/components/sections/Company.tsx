@@ -37,7 +37,7 @@ export const Company = () => {
                             <div className="border-b border-slate-100 pb-4">
                                 <dt className="font-bold text-text-primary mb-1">電話番号</dt>
                                 <dd className="text-text-secondary">
-                                    044-555-0652 / 080-7240-5467
+                                    080-7240-5467
                                 </dd>
                             </div>
                             <div className="border-b border-slate-100 pb-4">
